@@ -1,0 +1,70 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9eb4e56157f864070699197d79c71ffb",
+    "packages": [
+        {
+            "name": "wyrihaximus/react-event-loop-inspector-f42",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WyriHaximus/reactphp-event-loop-inspector-f42.git",
+                "reference": "5205218e8459af9c9b38db324a68bb427c9e8892"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WyriHaximus/reactphp-event-loop-inspector-f42/zipball/5205218e8459af9c9b38db324a68bb427c9e8892",
+                "reference": "5205218e8459af9c9b38db324a68bb427c9e8892",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "jakub-onderka/php-console-highlighter": "^0.3.2",
+                "jakub-onderka/php-parallel-lint": "^0.9.2",
+                "phpunit/phpunit": "^6.0",
+                "react/event-loop": "^0.4.3",
+                "react/stream": "^0.6.0",
+                "squizlabs/php_codesniffer": "^2.6",
+                "wyrihaximus/react-event-loop-inspector": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WyriHaximus\\React\\Inspector\\F42\\": "src/"
+                },
+                "files": [
+                    "src/include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cees-Jan Kiewiet",
+                    "email": "ceesjank@gmail.com"
+                }
+            ],
+            "description": "React Stream throughput inspector",
+            "time": "2017-04-29 21:02:46"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "wyrihaximus/react-event-loop-inspector-f42": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^7.0"
+    },
+    "platform-dev": []
+}

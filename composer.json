@@ -1,0 +1,21 @@
+{
+    "name": "wyrihaximus/react-event-loop-inspector-f42-bunny",
+    "license": "MIT",
+    "description": "Bunny bindings",
+    "authors": [
+        {
+            "name": "Cees-Jan Kiewiet",
+            "email": "ceesjank@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "wyrihaximus/react-event-loop-inspector-f42": "dev-master"
+    },
+    "autoload": {
+        "files": ["src/include.php"]
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
