@@ -2,18 +2,18 @@
 
 namespace Bunny;
 
-use WyriHaximus\React\Inspector\F42\GlobalState;
+use WyriHaximus\React\Inspector\GlobalState;
 
 function fread($handle, $length)
 {
     $data = \fread($handle, $length);
-    GlobalState::incr('read', strlen($data));
+    GlobalState::incr('io.read', strlen($data));
     return $data;
 }
 
 function fwrite($handle, $data)
 {
     $writtenLength = \fwrite($handle, $data);
-    GlobalState::incr('write', $writtenLength);
+    GlobalState::incr('io.write', $writtenLength);
     return $writtenLength;
 }
